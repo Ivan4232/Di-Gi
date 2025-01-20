@@ -1,0 +1,54 @@
+@media (min-width: 640px) {
+  .container {
+    padding: 0 30px;
+  }
+  .header {
+    &__inner {
+      min-height: 100px;
+    }
+  }
+  .logo__link {
+    margin-left: 14px;
+  }
+  .top-slider{
+    &__item{
+      min-width: 386px;
+    }
+    &__title{
+      font-size: 60px;
+      line-height: 60px;
+      padding: 50px 0 15px;
+      margin: 0 auto 30px;
+      max-width: 520px;
+    }
+    &__btn{
+      display: block;
+      font-weight: 500;
+      margin: 0 auto 113px;
+      font-size: 18px;
+      background-color: $accent;
+      color: $bg-color;
+      padding: 16px 45px;
+      border: none;
+      border-radius: 3px;
+    }
+  }
+    .slick-dots{
+      bottom: 50px;
+    }
+    .slick-arrow{
+      width: 56px;
+      height: 56px;
+      border: none;
+      position: absolute;
+      right: 0;
+    }
+    .slick-prev{
+   background-color: $accent;
+   top: calc(50% - 56px);
+    }
+    .slick-next{
+   background-color: $bg-color;
+   bottom: calc(50% - 56px);
+    }
+  }
