@@ -20,4 +20,58 @@
   .call__box {
     max-width: 695px;
   }
+  .services {
+    padding: 52px 0 0;
+  }
+  .services__title {
+    margin-bottom: 60px;
+  }
+  .services__descr {
+    padding-bottom: 46px;
+    margin-bottom: 40px;
+  }
+  .services__text {
+    margin-bottom: 32px;
+    max-width: 688px;
+  }
+  .services__item {
+    width: 25%;
+    padding: 0 17px;
+    min-height: 277px;
+  }
+  .services__item:nth-child(2), .services__item:nth-child(6) {
+    border-right: none;
+  }
+  .services__item:hover {
+    padding: 0 17px;
+  }
+  .services__item:hover .services__item-inner {
+    margin: 10px 0;
+    padding: 21px 9px 5px;
+    min-height: 255px;
+  }
+  .project__items {
+    max-width: 730px;
+  }
+  .project__item-img {
+    margin: 0 12px;
+  }
+  .team {
+    padding: 80px 0;
+  }
+  .team__images {
+    width: 395px;
+    margin-right: 60px;
+  }
+  .team__title {
+    margin-top: 10px;
+    margin-bottom: 19px;
+  }
+  .team__text {
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .team__btn {
+    font-size: 18px;
+  }
 }
