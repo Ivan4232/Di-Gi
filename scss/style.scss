@@ -288,6 +288,24 @@
  }
 }
 
+.news{
+  padding: 40px 0;
+  color: $text-color;
+  &__title{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  &__list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  &__item-text{
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
 @import 'tablet/tablet-640';
 @import 'tablet/tablet-768';
 @import 'tablet/tablet-1024';
